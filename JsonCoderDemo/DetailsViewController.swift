@@ -10,10 +10,25 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
+    @IBOutlet weak var alpha2: UILabel!
+    
+    @IBOutlet weak var alpha3: UILabel!
+    
+    @IBOutlet weak var subresign: UILabel!
+    
+    @IBOutlet weak var resign: UILabel!
+    
+    var alpha2str  =  ""
+    var alpha3str  =  ""
+    var subresignstr  =  ""
+    var resignstr  =  ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       resign.text = resignstr
+        subresign.text = subresignstr
+        alpha2.text = alpha2str
+        alpha3.text = alpha3str
     }
     
 

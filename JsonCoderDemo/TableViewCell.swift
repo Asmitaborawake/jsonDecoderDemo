@@ -10,6 +10,9 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameLbl: UILabel!
+    
+    @IBOutlet weak var capitalLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
